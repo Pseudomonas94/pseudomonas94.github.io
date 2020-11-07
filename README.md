@@ -9,7 +9,7 @@ Di seguito troverete alcune informazioni preliminari riguardanti questo tema.
 ### Files di sviluppo
 | Nome file | Descrizione | Formato |
 |---|---|---|
-| [index.html](https://pseudomonas94.github.io/)   | File di esempio della home page | HTML |
+| [index.html](https://pseudomonas94.github.io/) | File di esempio della home page | HTML |
 | [sandbox.html](https://pseudomonas94.github.io/sandbox.html) | File contenente gli stili del tema | HTML |
 
 ### Files del tema
