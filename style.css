@@ -1,0 +1,58 @@
+/*
+Theme Name: Icaroe theme
+Theme URI: https://icaroeteam.altervista.org
+Author: Lorenzo Stacchini
+Author URI: https://profiles.wordpress.org/pseudomonas/
+Description: A  WordPress theme for "Icaroe salute sui social web site".
+Version: 1.0
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: icaroetheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&family=Titillium+Web&display=swap');
+
+body{
+  font-family: "Titillium Web", "Roboto Mono", "Lora", sans-serif, serif;
+  font-size: 20px; /* almeno 18px su smartphone */
+}
+
+h1 {
+  font-size:56px;
+  font-weight: bold;
+  font-variant-caps: small-caps;
+}
+h2 {
+  font-size:48px;
+  font-weight: bold;
+}
+h3 {
+  font-size:40px;
+}
+h4 {
+  font-size:32px;
+}
+h5 {
+  font-size:28px;
+}
+h6 {
+  font-size:24px;
+}
+
+center {
+  text-align: center;
+}
+
+td {
+  padding: 2px;
+  border-bottom: 1px solid black;
+  vertical-align: text-bottom;
+}
+
+.td_wo_border{
+  border: 0px;
+  text-align: center;
+}
