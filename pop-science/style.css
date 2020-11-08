@@ -7,7 +7,7 @@ Description: Icaroe Theme is a modern WordPress theme. It can be used for any ty
 Version: 1.0
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Tags: black, blue, maroon, purple, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
 Text Domain: icaroetheme
 
 This theme, like WordPress, is licensed under the GPL.
@@ -51,6 +51,12 @@ center {
   text-align: center;
 }
 
+td {
+  padding: 2px;
+  border-bottom: 1px solid black;
+  vertical-align: text-bottom;
+}
+
 .imgcenter {
   display: block;
   margin-left: auto;
@@ -58,13 +64,15 @@ center {
   width: 50%;
 }
 
-td {
-  padding: 2px;
-  border-bottom: 1px solid black;
-  vertical-align: text-bottom;
-}
-
 .td_wo_border{
   border: 0px;
   text-align: center;
+}
+
+.active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font-weight: bold;
+}
+
+.nact > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #f7f7f7 !important;
 }
